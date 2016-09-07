@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0562B751D7B34D800B80BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0562B741D7B34D800B80BFC /* main.m */; };
+		B0562B781D7B34D800B80BFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0562B771D7B34D800B80BFC /* AppDelegate.m */; };
+		B0562B7B1D7B34D800B80BFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0562B7A1D7B34D800B80BFC /* ViewController.m */; };
+		B0562B7E1D7B34D800B80BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0562B7C1D7B34D800B80BFC /* Main.storyboard */; };
+		B0562B801D7B34D800B80BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0562B7F1D7B34D800B80BFC /* Assets.xcassets */; };
+		B0562B831D7B34D800B80BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0562B811D7B34D800B80BFC /* LaunchScreen.storyboard */; };
+		B0562B8C1D7B353400B80BFC /* WYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0562B8B1D7B353400B80BFC /* WYTabBarController.m */; };
+		B0562B8F1D7B35A700B80BFC /* WYOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0562B8E1D7B35A700B80BFC /* WYOneViewController.m */; };
+		B0562B921D7B35B900B80BFC /* WYTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0562B911D7B35B900B80BFC /* WYTwoViewController.m */; };
+		B0562B951D7B35D700B80BFC /* WYThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0562B941D7B35D700B80BFC /* WYThreeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0562B701D7B34D800B80BFC /* 快速创建tabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "快速创建tabBarController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0562B741D7B34D800B80BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0562B761D7B34D800B80BFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0562B771D7B34D800B80BFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0562B791D7B34D800B80BFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0562B7A1D7B34D800B80BFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0562B7D1D7B34D800B80BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0562B7F1D7B34D800B80BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0562B821D7B34D800B80BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0562B841D7B34D800B80BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0562B8A1D7B353400B80BFC /* WYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTabBarController.h; sourceTree = "<group>"; };
+		B0562B8B1D7B353400B80BFC /* WYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTabBarController.m; sourceTree = "<group>"; };
+		B0562B8D1D7B35A700B80BFC /* WYOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYOneViewController.h; sourceTree = "<group>"; };
+		B0562B8E1D7B35A700B80BFC /* WYOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYOneViewController.m; sourceTree = "<group>"; };
+		B0562B901D7B35B900B80BFC /* WYTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTwoViewController.h; sourceTree = "<group>"; };
+		B0562B911D7B35B900B80BFC /* WYTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTwoViewController.m; sourceTree = "<group>"; };
+		B0562B931D7B35D700B80BFC /* WYThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYThreeViewController.h; sourceTree = "<group>"; };
+		B0562B941D7B35D700B80BFC /* WYThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYThreeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0562B6D1D7B34D800B80BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0562B671D7B34D800B80BFC = {
+			isa = PBXGroup;
+			children = (
+				B0562B721D7B34D800B80BFC /* 快速创建tabBarController */,
+				B0562B711D7B34D800B80BFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0562B711D7B34D800B80BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0562B701D7B34D800B80BFC /* 快速创建tabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0562B721D7B34D800B80BFC /* 快速创建tabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				B0562B761D7B34D800B80BFC /* AppDelegate.h */,
+				B0562B771D7B34D800B80BFC /* AppDelegate.m */,
+				B0562B791D7B34D800B80BFC /* ViewController.h */,
+				B0562B7A1D7B34D800B80BFC /* ViewController.m */,
+				B0562B8A1D7B353400B80BFC /* WYTabBarController.h */,
+				B0562B8B1D7B353400B80BFC /* WYTabBarController.m */,
+				B0562B8D1D7B35A700B80BFC /* WYOneViewController.h */,
+				B0562B8E1D7B35A700B80BFC /* WYOneViewController.m */,
+				B0562B901D7B35B900B80BFC /* WYTwoViewController.h */,
+				B0562B911D7B35B900B80BFC /* WYTwoViewController.m */,
+				B0562B931D7B35D700B80BFC /* WYThreeViewController.h */,
+				B0562B941D7B35D700B80BFC /* WYThreeViewController.m */,
+				B0562B7C1D7B34D800B80BFC /* Main.storyboard */,
+				B0562B7F1D7B34D800B80BFC /* Assets.xcassets */,
+				B0562B811D7B34D800B80BFC /* LaunchScreen.storyboard */,
+				B0562B841D7B34D800B80BFC /* Info.plist */,
+				B0562B731D7B34D800B80BFC /* Supporting Files */,
+			);
+			path = "快速创建tabBarController";
+			sourceTree = "<group>";
+		};
+		B0562B731D7B34D800B80BFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0562B741D7B34D800B80BFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0562B6F1D7B34D800B80BFC /* 快速创建tabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0562B871D7B34D800B80BFC /* Build configuration list for PBXNativeTarget "快速创建tabBarController" */;
+			buildPhases = (
+				B0562B6C1D7B34D800B80BFC /* Sources */,
+				B0562B6D1D7B34D800B80BFC /* Frameworks */,
+				B0562B6E1D7B34D800B80BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "快速创建tabBarController";
+			productName = "快速创建tabBarController";
+			productReference = B0562B701D7B34D800B80BFC /* 快速创建tabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0562B681D7B34D800B80BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wangyi;
+				TargetAttributes = {
+					B0562B6F1D7B34D800B80BFC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B0562B6B1D7B34D800B80BFC /* Build configuration list for PBXProject "快速创建tabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0562B671D7B34D800B80BFC;
+			productRefGroup = B0562B711D7B34D800B80BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0562B6F1D7B34D800B80BFC /* 快速创建tabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0562B6E1D7B34D800B80BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0562B831D7B34D800B80BFC /* LaunchScreen.storyboard in Resources */,
+				B0562B801D7B34D800B80BFC /* Assets.xcassets in Resources */,
+				B0562B7E1D7B34D800B80BFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0562B6C1D7B34D800B80BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0562B7B1D7B34D800B80BFC /* ViewController.m in Sources */,
+				B0562B8F1D7B35A700B80BFC /* WYOneViewController.m in Sources */,
+				B0562B781D7B34D800B80BFC /* AppDelegate.m in Sources */,
+				B0562B921D7B35B900B80BFC /* WYTwoViewController.m in Sources */,
+				B0562B751D7B34D800B80BFC /* main.m in Sources */,
+				B0562B951D7B35D700B80BFC /* WYThreeViewController.m in Sources */,
+				B0562B8C1D7B353400B80BFC /* WYTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0562B7C1D7B34D800B80BFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0562B7D1D7B34D800B80BFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0562B811D7B34D800B80BFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0562B821D7B34D800B80BFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0562B851D7B34D800B80BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0562B861D7B34D800B80BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0562B881D7B34D800B80BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "快速创建tabBarController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.wangyi.----tabBarController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0562B891D7B34D800B80BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "快速创建tabBarController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.wangyi.----tabBarController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0562B6B1D7B34D800B80BFC /* Build configuration list for PBXProject "快速创建tabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0562B851D7B34D800B80BFC /* Debug */,
+				B0562B861D7B34D800B80BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0562B871D7B34D800B80BFC /* Build configuration list for PBXNativeTarget "快速创建tabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0562B881D7B34D800B80BFC /* Debug */,
+				B0562B891D7B34D800B80BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0562B681D7B34D800B80BFC /* Project object */;
+}
